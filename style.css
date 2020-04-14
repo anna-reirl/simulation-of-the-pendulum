@@ -1,36 +1,48 @@
 * {
+    box-sizing: border-box;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
+    transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
     font-family: 'Tenor Sans', sans-serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Rubik', sans-serif;
 }
 .info{
-    background-color: rgb(158, 195, 167);
-    width: 1200px;
+    width: 160px;
     height: 50px;
-    padding: 20px;
+    float: left; 
+    width: 60%;
+    margin-left: 50px;
+ 
 }
 span{
     font-size: 30px;
+    margin: 20px;
+    background-color: rgb(158, 195, 167);
 }
 
 canvas {
-    margin: 5px;
+    margin: 15px;
     border: 1px solid #999999;
-    float: center;
-    margin-top: 50px;
-    margin-left: 190px;
+    float: right; 
+    width: 40%;
+    margin-right: 150px;
+
+    
 }
 
 .mTop {
-    margin-top: 35px;
-    margin-left: 80px;
+    position:sticky;
+left:50px;
+top:0px;
+
 }
 
 #info {
     float: left;
-    margin-left: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+
 }
 .button {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -52,9 +64,4 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
   }
-.footer{
-    background-color: rgb(158, 195, 167);
-    width: 1650px;
-    height: 50px;
 
-}
