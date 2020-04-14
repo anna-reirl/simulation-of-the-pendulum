@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Маятник</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Rubik|Tenor+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <span>Модель математического маятника</span>
+    </div>
+<canvas id="canvas" width="700" height="700"></canvas>
+
+<div id="info">
+    <p class="mTop">
+        <label for="angle">Начальное отклонение: </label>
+        <input type="text" id="angle" size="3">&deg;
+    </p>
+
+    <p class="mTop">
+        <label for="length">Длина подвеса: </label>
+        <input type="text" id="length" size="3"> м
+    </p>
+
+    <p class="mTop">
+        <label for="deceleration">Коэффицент затухания: </label>
+        <input type="text" id="deceleration" size="4">
+    </p>
+
+    <p class="mTop">
+        <input type="button" class="button" value="Запустить" id="mainButton">
+    </p>
+
+</div>
+<div class="footer">Copyright Анна Агабекян</div>
+</body>
+</html>
