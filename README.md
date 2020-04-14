@@ -1,2 +1,2 @@
 # simulation-of-the-pendulum
-[Model](https://annaagabekyan.netlify.com/)
+[Model](https://annaagabekyan.netlify.com/) 
